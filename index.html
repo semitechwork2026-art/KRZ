@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أكواب الكرز</title>
+    <link rel="icon" type="image/png" href="imgs/logo.png">
+    
+    <!-- Bootstrap RTL CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&family=Amiri:wght@700&display=swap" rel="stylesheet">
+    
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Speed Dial -->
+    <div class="speed-dial" id="speedDial">
+        <div class="speed-dial-actions" id="speedDialActions">
+            <a href="https://wa.me/201010610674" target="_blank" class="sd-btn sd-whatsapp" aria-label="واتساب">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="tel:+201010610674" class="sd-btn sd-phone" aria-label="اتصال">
+                <i class="fas fa-phone-alt"></i>
+            </a>
+        </div>
+        <button class="sd-main-btn" style="background-color: #b5cc2e;" id="sdMainBtn" onclick="toggleSpeedDial()" aria-label="تواصل معنا">
+            <i class="fas fa-headset sd-icon-open"></i>
+            <i class="fas fa-times sd-icon-close"></i>
+        </button>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolled" id="mainNav">
+        <div class="container"> 
+            <a class="navbar-brand logo-brand" href="#home">
+                <img src="imgs/logo-circle.png" alt="أكواب الكرز" class="navbar-logo">
+
+            </a>
+            
+            <!-- Social Icons - للموبايل فقط -->
+            <div class="navbar-social-icons">
+                <a href="https://wa.me/201010610674" target="_blank" aria-label="واتساب">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <!-- <a href="#" target="_blank" aria-label="تيك توك"><i class="fab fa-tiktok"></i></a> -->
+                
+                <a href="" target="_blank" aria-label="إنستغرام">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <!-- <a href="#" target="_blank" aria-label="فيسبوك">
+                    <i class="fab fa-facebook-f"></i>
+                </a> -->
+            </div>
+            <!-- Cart Icon -->
+            <button class="cart-icon-btn" id="cartIconBtn" onclick="openCart()" aria-label="السلة">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-badge" id="cartBadge" style="display:none;">0</span>
+            </button>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">الرئيسية</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">قائمة أكواب الكرز</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">عن أكواب الكرز</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#offers">العروض</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">التواصل</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Offers Section -->
+    <section id="home" class="hero-offers-section">
+        <div class="container">
+
+            <!-- Brand Intro -->
+            <div class="hero-offers-header" data-aos="fade-down">
+                <h1 class="hero-offers-title">مرحباً بك في <span>عصائر أكواب الكرز</span> 🧡</h1>
+                <p class="hero-offers-sub">أطيب العصائر الطازجة والمشروبات المنعشة</p>
+                <div class="hero-offers-actions">
+                    <a href="#menu" class="btn btn-primary btn-lg">استكشف القائمة</a>
+                    <a href="https://wa.me/201010610674" target="_blank" class="btn btn-success btn-lg">
+                        <i class="fab fa-whatsapp me-1"></i> اطلب الآن
+                    </a>
+                </div>
+            </div>
+
+            <!-- Offers Cards -->
+
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu-section py-5">
+        <div class="container">
+            <div class="section-title text-center " data-aos="fade-up">
+                <h2 class="display-4 fw-bold">قائمة عصائرنا الطازجة</h2>
+            </div>
+            
+            <!-- Search Box -->
+            <div class="row justify-content-center mb-4" data-aos="fade-up">
+                <div class="col-lg-6">
+                    <div class="search-box">
+                        <i class="fas fa-search"></i>
+                        <input type="text" id="menuSearch" class="form-control" placeholder="ابحث عن عصيرك المفضل...">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Filter Buttons - Sticky -->
+        <div class="menu-filter-section" data-aos="fade-up">
+                       <div class="container">
+                <div class="filter-slider-wrapper">
+                <div class="filter-buttons text-center" id="filterButtons">
+                    <button class="filter-btn active" data-filter="all">
+                        <i class="fas fa-th-large"></i> جميع الفئات
+                    </button>
+                    <button class="filter-btn" data-filter="FreshJuices">
+                        <i class="fas fa-bread-slice"></i> عصائر طازجة_A
+                    </button>
+                    <button class="filter-btn" data-filter="MixedJuices">
+                        <i class="fas fa-box"></i> عصائر مكس_B
+                    </button>
+                    <button class="filter-btn" data-filter="JuiceBlends">
+                        <i class="fas fa-utensils"></i> خلطات عصائر_C
+                    </button>
+                    <button class="filter-btn" data-filter="JuiceBoxes">
+                        <i class="fas fa-french-fries"></i> بوكسات عصائر_D
+                    </button>  
+                    <button class="filter-btn" data-filter="CherryMilkshakeCups">
+                        <i class="fas fa-french-fries"></i> ميلك شيك أكواب الكرز_E
+                    </button>
+                    <button class="filter-btn" data-filter="IcedDrinks">
+                        <i class="fas fa-french-fries"></i>مشروبات مثلجة _I
+                    </button>
+                    <button class="filter-btn" data-filter="FruitSalad">
+                        <i class="fas fa-french-fries"></i>سلطة فواكة_S
+                    </button>
+                    <button class="filter-btn" data-filter="IceCream">
+                        <i class="fas fa-utensils"></i>آيسكريم_IC
+                    </button>
+
+                </div>
+                </div><!-- end filter-slider-wrapper -->
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="menu-grid" id="menuGrid"></div>
+            <div id="noResults" class="text-center py-5" style="display: none;">
+                <i class="fas fa-search fa-3x text-muted mb-3"></i>
+                <h4 class="text-muted">لا توجد نتائج</h4>
+                <p class="text-muted">جرب البحث بكلمات أخرى</p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+        <!-- About Section -->
+    <section id="about" class="about-section py-5">
+        <div class="container">
+            <div class="row align-items-stretch">
+                <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
+                    <div class="about-map-wrap rounded-4 overflow-hidden shadow">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3537.3049075105746!2d41.680952100000006!3d27.5530461!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1576412e98292a9f%3A0xf21455ab18720c0a!2z2LnYtdin2KbYsSDYp9mD2YjYp9ioINin2YTZg9ix2LI!5e0!3m2!1sen!2ssa!4v1791661153259!5m2!1sen!2ssa"
+                            style="border:0;"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                            title="موقع أكواب الكرز على خرائط جوجل">
+                        </iframe>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="section-title mb-4">
+                        <span class="subtitle">من نحن</span>
+                        <h2 class="display-4 fw-bold">مرحباً بكم في عصائر أكواب الكرز</h2>
+                    </div>
+                    <p class="lead mb-4">يا هلا بضيوف أكواب الكرز الغاليين! 🧡 جيت تدوّر على حلى يروّق بالك؟ أو وجبة تشبّعك وتدلعك؟ منيو أكواب الكرز يجمع لك أكواب الكرز، ، و بجودة تبيض الوجه. زرنا الآن واستمتع بأجمل الأجواء وألذ الأطباق."</p>
+                    <div class="about-features">
+                        <div class="about-feature-item mb-3">
+                            <i class="fas fa-check-circle text-primary me-2"></i>
+                            <span>بين القرمشة والحلاوة.. أكواب الكرز يضبط يومك! ✨</span>
+                        </div>
+                        <div class="about-feature-item mb-3">
+                            <i class="fas fa-check-circle text-primary me-2"></i>
+                            <span>استمتع بتشكيلة أكواب الكرز الفاخرة بأنواعها</span>
+                        </div>
+                        <div class="about-feature-item mb-3">
+                            <i class="fas fa-check-circle text-primary me-2"></i>
+                            <span>وصفات أصيلة ونكهات لا تُنسى</span>
+                        </div>
+                        <div class="about-feature-item mb-3">
+                            <i class="fas fa-check-circle text-primary me-2"></i>
+                            <span>خدمة توصيل سريعة لجميع المناطق</span>
+                        </div>
+                    </div>
+                    <div class="working-hours mt-4 p-4 bg-light rounded-3">
+                        <h5 class="mb-3"><i class="far fa-clock me-2"></i>مواعيد العمل</h5>
+                        <p class="mb-0 fw-bold text-primary">يومياً: من 01:00 مساءاً إلى 01:00 صباحاً</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section py-5">
+        <div class="container">
+            <div class="section-title text-center mb-5" data-aos="fade-up">
+                <span class="subtitle">تواصل معنا</span>
+                <h2 class="display-4 fw-bold">نسعد بخدمتكم</h2>
+            </div>
+
+            <div class="contact-pills-wrapper" data-aos="fade-up">
+
+                <a href="tel:0510743182" class="contact-pill">
+                    <div class="contact-pill-text">
+                        <span class="cp-title">اتصل بنا</span>
+                        <span class="cp-value">0555156413</span>
+                    </div>
+                    <div class="contact-pill-icon">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                </a>
+
+                <a href="https://wa.me/966555156413" class="contact-pill" target="_blank">
+                    <div class="contact-pill-text">
+                        <span class="cp-title">واتساب</span>
+                        <span class="cp-value">تواصل معنا</span>
+                    </div>
+                    <div class="contact-pill-icon whatsapp">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                </a>
+
+                <div class="contact-pill no-hover">
+                    <div class="contact-pill-text">
+                        <span class="cp-title">مواعيد العمل</span>
+                        <span class="cp-value">يومياً &nbsp;|&nbsp; 01:00 م – 01:00 ص</span>
+                    </div>
+                    <div class="contact-pill-icon clock">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="text-center mt-5" data-aos="fade-up">
+                <p class="lead mb-3">يوجد لدينا توصيل طلبات لجميع المناطق</p>
+                <div class="d-flex justify-content-center gap-3 flex-wrap">
+                    <a href="https://wa.me/966555156413" class="btn btn-success btn-lg" target="_blank">
+                        <i class="fab fa-whatsapp me-2"></i>اطلب عبر واتساب
+                    </a>
+                    <a href="tel:0510743182" class="btn btn-call btn-lg">
+                        <i class="fas fa-phone-alt me-2"></i>اتصل بنا
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="footer-brand mb-3">
+                        <i class="fas fa-pizza-slice"></i>
+                        <span>أكواب الكرز</span>
+                    </div>
+                    <p class="text-muted, color='white'">"أهلاً بيك في أكواب الكرز.. عصائر أكواب الكرز.. انتعاشك الطبيعي في كل قطرة!, نقدم لك ألذ العصائر الطازجة، خلطات الأكواب المميزة، والآيس كريم المنعش المصنوع بعناية ليومك., 	في "أكواب الكرز"، نؤمن بأن العصير الطازج هو سر البهجة والانتعاش.</p>
+                </div>
+
+                <div class="col-lg-4">
+                    <h5 class="mb-3">روابط سريعة</h5>
+                    <ul class="footer-links">
+                        <li><a href="#home">الرئيسية</a></li>
+                        <li><a href="#menu">قائمة العصائر</a></li>
+                        <li><a href="#about">عن أكواب الكرز</a></li>
+                        
+                        <!-- <li><a href="#offers">العروض</a></li> -->
+                        <li><a href="#contact">التواصل</a></li>
+                        <li><a href="https://www.google.com/maps/place/%D8%B9%D8%B5%D8%A7%D8%A6%D8%B1+%D8%A7%D9%83%D9%88%D8%A7%D8%A8+%D8%A7%D9%84%D9%83%D8%B1%D8%B2%E2%80%AD/data=!4m2!3m1!1s0x0:0xf21455ab18720c0a?sa=X&ved=1t:2428&ictx=111">موقعنا على خرائط جوجل</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4">
+                    <h5 class="mb-3">تابعنا</h5>
+                    <div class="social-links">
+                        <!-- <a href="#" aria-label="فيسبوك"><i class="fab fa-facebook-f"></i></a> -->
+                        <a href="https://www.snapchat.com/add/syrlnjwm256789?share_id=DnYHqnghLDI&locale=ar-SA" aria-label="اسناب شات"><i class="fab fa-snapchat"></i></a>
+                        <!-- <a href="#" aria-label="تويتر"><i class="fab fa-twitter"></i></a> -->
+                        <!-- <a href="#" aria-label="تيك توك"><i class="fab fa-tiktok"></i></a> -->
+                        <a href="https://wa.me/966555156413" aria-label="واتساب"><i class="fab fa-whatsapp"></i></a>
+                         <a href="https://share.google/klRUmEQRLOy3IMWwN" aria-label="الموقع"><i class="fas fa-map-marker-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="my-4">
+
+            <div class="text-center">
+                <p class="mb-0 text-muted, color='white'">© 2026 أكواب الكرز. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Cart Drawer -->
+    <div class="cart-overlay" id="cartOverlay" onclick="closeCart()"></div>
+    <div class="cart-drawer" id="cartDrawer">
+        <div class="cart-header">
+            <h5><i class="fas fa-shopping-cart me-2"></i>سلة الطلبات</h5>
+            <button class="cart-close-btn" onclick="closeCart()" aria-label="إغلاق">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="cart-body" id="cartBody">
+            <div class="cart-empty">
+                <i class="fas fa-shopping-basket"></i>
+                <p>سلتك فاضية</p>
+                <span>أضف منتجات من المنيو</span>
+            </div>
+        </div>
+        <div class="cart-footer" id="cartFooter" style="display:none;">
+            <div class="cart-total">
+                <span>الإجمالي</span>
+                <span class="cart-total-amount" id="cartTotalAmount">0 ﷼</span>
+            </div>
+            <button class="cart-order-btn" id="cartOrderBtn" onclick="sendWhatsAppOrder()">
+                <i class="fab fa-whatsapp"></i> إرسال الطلب عبر واتساب
+            </button>
+            <button class="cart-clear-btn" onclick="clearCart()">
+                <i class="fas fa-trash-alt"></i> إفراغ السلة
+            </button>
+        </div>
+    </div>
+
+    <!-- Size Picker Bottom Sheet -->
+    <div class="size-picker-overlay" id="sizePickerOverlay" onclick="closeSizePicker()"></div>
+    <div class="size-picker-sheet" id="sizePickerSheet">
+        <div class="size-picker-handle"></div>
+        <button class="size-picker-close" onclick="closeSizePicker()" aria-label="إغلاق">
+            <i class="fas fa-times"></i>
+        </button>
+        <div class="size-picker-hero">
+            <img id="spImg" src="" alt="">
+            <span class="size-picker-hero-code" id="spCode"></span>
+            <span class="size-picker-hero-cal" id="spHeroCal"><i class="fas fa-fire-flame-curved"></i> <span id="spHeroCalValue">—</span> kcal</span>
+        </div>
+        <div class="size-picker-header">
+            <h5 id="spName"></h5>
+            <p class="size-picker-ingredients" id="spIngredients"></p>
+        </div>
+        <div class="size-picker-body">
+            <!-- <div class="size-picker-label">اختر الحجم</div> -->
+            <div class="size-picker-options" id="spOptions"></div>
+            <div class="size-picker-qty-row">
+                <span class="size-picker-label" style="margin:0;">الكمية</span>
+                <div class="cart-item-controls">
+                    <button class="qty-btn" onclick="changeSpQty(-1)" aria-label="تقليل"><i class="fas fa-minus"></i></button>
+                    <span class="qty-count" id="spQty">1</span>
+                    <button class="qty-btn" onclick="changeSpQty(1)" aria-label="زيادة"><i class="fas fa-plus"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="size-picker-footer">
+            <button class="size-picker-add-btn" id="spAddBtn" onclick="confirmAddToCart()">
+                <i class="fas fa-shopping-cart"></i> أضف للسلة — <span id="spTotalPrice">0</span> ﷼
+            </button>
+        </div>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- AOS Animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
