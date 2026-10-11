@@ -12,7 +12,7 @@ const menuData = [
         category: 'FreshJuices',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/1-FreshJuices/1.jpeg',
+        image: 'imgs/1-FreshJuices/1.jpg',
         sizes: [
             { label: 'S',   short: 'S',  price: 8 },
             { label: 'M',   short: 'M',  price: 10 },
@@ -23,7 +23,7 @@ const menuData = [
         id: 'A2',
         name: 'كوكتيل',
         category: 'FreshJuices',
-        image: 'imgs/1-FreshJuices/2.jpeg',
+        image: 'imgs/1-FreshJuices/2.jpg',
         sizes: [
             { label: 'S',   short: 'S',  price: 8},
             { label: 'M',   short: 'M',  price: 10 },
@@ -34,7 +34,7 @@ const menuData = [
         id: 'A3',
         name: 'رمان',
         category: 'FreshJuices',
-        image: 'imgs/1-FreshJuices/4.jpeg',
+        image: 'imgs/1-FreshJuices/4.jpg',
         sizes: [
             { label: 'S',   short: 'S',  price: 8},
             { label: 'M',   short: 'M',  price: 10 },
@@ -45,7 +45,7 @@ const menuData = [
         id: 'A4',
         name: 'أناناس',
         category: 'FreshJuices',
-        image: 'imgs/1-FreshJuices/4.jpeg',
+        image: 'imgs/1-FreshJuices/4.jpg',
         sizes: [
             { label: 'S',   short: 'S',  price: 10},
             { label: 'M',   short: 'M',  price: 12 },
@@ -56,7 +56,7 @@ const menuData = [
         id: 'A5',
         name: 'خوخ',
         category: 'FreshJuices',
-        image: 'imgs/1-FreshJuices/5.jpeg',
+        image: 'imgs/1-FreshJuices/5.jpg',
         sizes: [
             { label: 'S',   short: 'S',  price: 8},
             { label: 'M',   short: 'M',  price: 10 },
@@ -67,7 +67,7 @@ const menuData = [
         id: 'A6',
         name: 'كيوي',
         category: 'FreshJuices',
-        image: 'imgs/1-FreshJuices/6.jpeg',
+        image: 'imgs/1-FreshJuices/6.jpg',
         sizes: [
             { label: 'S',   short: 'S',  price: 8},
             { label: 'M',   short: 'M',  price: 10 },
@@ -78,7 +78,7 @@ const menuData = [
         id: 'A7',
         name: 'ليمون',
         category: 'FreshJuices',
-        image: 'imgs/1-FreshJuices/7.jpeg',
+        image: 'imgs/1-FreshJuices/7.jpg',
         sizes: [
             { label: 'S',   short: 'S',  price: 8},
             { label: 'M',   short: 'M',  price: 10 },
@@ -89,7 +89,7 @@ const menuData = [
         id: 'A8',
         name: 'ليمون نعناع',
         category: 'FreshJuices',
-        image: 'imgs/1-FreshJuices/8.jpeg',
+        image: 'imgs/1-FreshJuices/8.jpg',
         sizes: [
             { label: 'S',   short: 'S',  price: 8},
             { label: 'M',   short: 'M',  price: 10 },
@@ -100,7 +100,7 @@ const menuData = [
         id: 'A9',
         name: 'برتقال',
         category: 'FreshJuices',
-        image: 'imgs/1-FreshJuices/9.jpeg',
+        image: 'imgs/1-FreshJuices/9.jpg',
         sizes: [
             { label: 'S',   short: 'S',  price: 8},
             { label: 'M',   short: 'M',  price: 10 },
@@ -111,7 +111,7 @@ const menuData = [
         id: 'A10',
         name: 'برتقال كبس',
         category: 'FreshJuices',
-        image: 'imgs/1-FreshJuices/10.jpeg',
+        image: 'imgs/1-FreshJuices/10.jpg',
         sizes: [
             { label: 'S',   short: 'S',  price: 10},
             { label: 'M',   short: 'M',  price: 12 },
@@ -122,7 +122,7 @@ const menuData = [
         id: 'A11',
         name: 'توت بري',
         category: 'FreshJuices',
-        image: 'imgs/1-FreshJuices/11.jpeg',
+        image: 'imgs/1-FreshJuices/11.jpg',
         sizes: [
             { label: 'S',   short: 'S',  price: 10},
             { label: 'M',   short: 'M',  price: 12 },
@@ -133,7 +133,7 @@ const menuData = [
         id: 'A12',
         name: 'فراولة',
         category: 'FreshJuices',
-        image: 'imgs/1-FreshJuices/12.jpeg',
+        image: 'imgs/1-FreshJuices/12.jpg',
         sizes: [
             { label: 'S',   short: 'S',  price: 8},
             { label: 'M',   short: 'M',  price: 10 },
@@ -144,7 +144,7 @@ const menuData = [
         id: 'A13',
         name: 'جوافة',
         category: 'FreshJuices',
-        image: 'imgs/1-FreshJuices/13.jpeg',
+        image: 'imgs/1-FreshJuices/13.jpg',
         sizes: [
             { label: 'S',   short: 'S',  price: 8},
             { label: 'M',   short: 'M',  price: 10 },
@@ -155,7 +155,7 @@ const menuData = [
         id: 'A14',
         name: 'عنب',
         category: 'FreshJuices',
-        image: 'imgs/1-FreshJuices/14.jpeg',
+        image: 'imgs/1-FreshJuices/14.jpg',
         sizes: [
             { label: 'S',   short: 'S',  price: 8},
             { label: 'M',   short: 'M',  price: 10 },
@@ -166,7 +166,7 @@ const menuData = [
         id: 'A15',
         name: 'شمام',
         category: 'FreshJuices',
-        image: 'imgs/1-FreshJuices/15.jpeg',
+        image: 'imgs/1-FreshJuices/15.jpg',
         sizes: [
             { label: 'S',   short: 'S',  price: 8},
             { label: 'M',   short: 'M',  price: 10 },
@@ -177,7 +177,7 @@ const menuData = [
         id: 'A16',
         name: 'بطيخ',
         category: 'FreshJuices',
-        image: 'imgs/1-FreshJuices/16.jpeg',
+        image: 'imgs/1-FreshJuices/16.jpg',
         sizes: [
             { label: 'S',   short: 'S',  price: 8},
             { label: 'M',   short: 'M',  price: 10 },
@@ -188,7 +188,7 @@ const menuData = [
         id: 'A17',
         name: 'جزر',
         category: 'FreshJuices',
-        image: 'imgs/1-FreshJuices/17.jpeg',
+        image: 'imgs/1-FreshJuices/17.jpg',
         sizes: [
             { label: 'S',   short: 'S',  price: 8},
             { label: 'M',   short: 'M',  price: 10 },
@@ -199,7 +199,7 @@ const menuData = [
         id: 'A18',
         name: 'كركدية',
         category: 'FreshJuices',
-        image: 'imgs/1-FreshJuices/17.jpeg',
+        image: 'imgs/1-FreshJuices/17.jpg',
         sizes: [
             { label: 'S',   short: 'S',  price: 8},
             { label: 'M',   short: 'M',  price: 10 },
@@ -214,7 +214,7 @@ const menuData = [
         category: 'MixedJuices',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/2-MixedJuices/1.jpeg',
+        image: 'imgs/2-MixedJuices/1.jpg',
         sizes: [
             { label: 'S',   short: 'S',  price: 8 },
             { label: 'M',   short: 'M',  price: 10 },
@@ -227,7 +227,7 @@ const menuData = [
         category: 'MixedJuices',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/2-MixedJuices/2.jpeg',
+        image: 'imgs/2-MixedJuices/2.jpg',
         sizes: [
             { label: 'S',   short: 'S',  price: 8 },
             { label: 'M',   short: 'M',  price: 10 },
@@ -240,7 +240,7 @@ const menuData = [
         category: 'MixedJuices',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/2-MixedJuices/3.jpeg',
+        image: 'imgs/2-MixedJuices/3.jpg',
         sizes: [
             { label: 'S',   short: 'S',  price: 8 },
             { label: 'M',   short: 'M',  price: 10 },
@@ -253,7 +253,7 @@ const menuData = [
         category: 'MixedJuices',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/2-MixedJuices/4.jpeg',
+        image: 'imgs/2-MixedJuices/4.jpg',
         sizes: [
             { label: 'S',   short: 'S',  price: 8 },
             { label: 'M',   short: 'M',  price: 10 },
@@ -266,7 +266,7 @@ const menuData = [
         category: 'MixedJuices',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/2-MixedJuices/5.jpeg',
+        image: 'imgs/2-MixedJuices/5.jpg',
         sizes: [
             { label: 'S',   short: 'S',  price: 8 },
             { label: 'M',   short: 'M',  price: 10 },
@@ -279,7 +279,7 @@ const menuData = [
         category: 'MixedJuices',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/2-MixedJuices/6.jpeg',
+        image: 'imgs/2-MixedJuices/6.jpg',
         sizes: [
             { label: 'S',   short: 'S',  price: 8 },
             { label: 'M',   short: 'M',  price: 10 },
@@ -292,7 +292,7 @@ const menuData = [
         category: 'MixedJuices',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/2-MixedJuices/7.jpeg',
+        image: 'imgs/2-MixedJuices/7.jpg',
         sizes: [
             { label: 'S',   short: 'S',  price: 8 },
             { label: 'M',   short: 'M',  price: 10 },
@@ -305,7 +305,7 @@ const menuData = [
         category: 'MixedJuices',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/2-MixedJuices/8.jpeg',
+        image: 'imgs/2-MixedJuices/8.jpg',
         sizes: [
             { label: 'S',   short: 'S',  price: 8 },
             { label: 'M',   short: 'M',  price: 10 },
@@ -318,7 +318,7 @@ const menuData = [
         category: 'MixedJuices',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/2-MixedJuices/9.jpeg',
+        image: 'imgs/2-MixedJuices/9.jpg',
         sizes: [
             { label: 'S',   short: 'S',  price: 8 },
             { label: 'M',   short: 'M',  price: 10 },
@@ -331,7 +331,7 @@ const menuData = [
         category: 'MixedJuices',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/2-MixedJuices/10.jpeg',
+        image: 'imgs/2-MixedJuices/10.jpg',
         sizes: [
             { label: 'S',   short: 'S',  price: 10 },
             { label: 'M',   short: 'M',  price: 12 },
@@ -344,7 +344,7 @@ const menuData = [
         category: 'MixedJuices',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/2-MixedJuices/11.jpeg',
+        image: 'imgs/2-MixedJuices/11.jpg',
         sizes: [
             { label: 'S',   short: 'S',  price: 8 },
             { label: 'M',   short: 'M',  price: 10 },
@@ -357,7 +357,7 @@ const menuData = [
         category: 'MixedJuices',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/2-MixedJuices/12.jpeg',
+        image: 'imgs/2-MixedJuices/12.jpg',
         sizes: [
             { label: 'S',   short: 'S',  price: 8 },
             { label: 'M',   short: 'M',  price: 10 },
@@ -370,7 +370,7 @@ const menuData = [
         category: 'MixedJuices',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/2-MixedJuices/13.jpeg',
+        image: 'imgs/2-MixedJuices/13.jpg',
         sizes: [
             { label: 'S',   short: 'S',  price: 8 },
             { label: 'M',   short: 'M',  price: 10 },
@@ -383,7 +383,7 @@ const menuData = [
         category: 'MixedJuices',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/2-MixedJuices/14.jpeg',
+        image: 'imgs/2-MixedJuices/14.jpg',
         sizes: [
             { label: 'S',   short: 'S',  price: 8 },
             { label: 'M',   short: 'M',  price: 10 },
@@ -396,7 +396,7 @@ const menuData = [
         category: 'MixedJuices',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/2-MixedJuices/15.jpeg',
+        image: 'imgs/2-MixedJuices/15.jpg',
         sizes: [
             { label: 'S',   short: 'S',  price: 8 },
             { label: 'M',   short: 'M',  price: 10 },
@@ -409,7 +409,7 @@ const menuData = [
         category: 'MixedJuices',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/2-MixedJuices/16.jpeg',
+        image: 'imgs/2-MixedJuices/16.jpg',
         sizes: [
             { label: 'S',   short: 'S',  price: 8 },
             { label: 'M',   short: 'M',  price: 10 },
@@ -422,7 +422,7 @@ const menuData = [
         category: 'MixedJuices',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/2-MixedJuices/17.jpeg',
+        image: 'imgs/2-MixedJuices/17.jpg',
         sizes: [
             { label: 'S',   short: 'S',  price: 12 },
             { label: 'M',   short: 'M',  price: 14 },
@@ -434,7 +434,7 @@ const menuData = [
         category: 'MixedJuices',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/2-MixedJuices/18.jpeg',
+        image: 'imgs/2-MixedJuices/18.jpg',
         sizes: [
             { label: 'S',   short: 'S',  price: 5 },
         ]
@@ -447,7 +447,7 @@ const menuData = [
         category: 'JuiceBlends',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/3-JuiceBlends/1.jpeg',
+        image: 'imgs/3-JuiceBlends/1.jpg',
         sizes: [
             { label: 'S',   short: 'S',  price: 10 },
             { label: 'M',   short: 'M',  price: 12 },
@@ -460,7 +460,7 @@ const menuData = [
         category: 'JuiceBlends',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/3-JuiceBlends/2.jpeg',
+        image: 'imgs/3-JuiceBlends/2.jpg',
         sizes: [
             { label: 'S',   short: 'S',  price: 10 },
             { label: 'M',   short: 'M',  price: 12 },
@@ -473,7 +473,7 @@ const menuData = [
         category: 'JuiceBlends',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/3-JuiceBlends/3.jpeg',
+        image: 'imgs/3-JuiceBlends/3.jpg',
         sizes: [
             { label: 'S',   short: 'S',  price: 10 },
             { label: 'M',   short: 'M',  price: 12 },
@@ -486,7 +486,7 @@ const menuData = [
         category: 'JuiceBlends',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/3-JuiceBlends/4.jpeg',
+        image: 'imgs/3-JuiceBlends/4.jpg',
         sizes: [
             { label: 'S',   short: 'S',  price: 10 },
             { label: 'M',   short: 'M',  price: 12 },
@@ -499,7 +499,7 @@ const menuData = [
         category: 'JuiceBlends',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/3-JuiceBlends/5.jpeg',
+        image: 'imgs/3-JuiceBlends/5.jpg',
         sizes: [
             { label: 'S',   short: 'S',  price: 10 },
             { label: 'M',   short: 'M',  price: 12 },
@@ -512,7 +512,7 @@ const menuData = [
         category: 'JuiceBlends',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/3-JuiceBlends/6.jpeg',
+        image: 'imgs/3-JuiceBlends/6.jpg',
         sizes: [
             { label: 'S',   short: 'S',  price: 10 },
             { label: 'M',   short: 'M',  price: 12 },
@@ -525,7 +525,7 @@ const menuData = [
         category: 'JuiceBlends',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/3-JuiceBlends/7.jpeg',
+        image: 'imgs/3-JuiceBlends/7.jpg',
         sizes: [
             { label: 'S',   short: 'S',  price: 10 },
             { label: 'M',   short: 'M',  price: 12 },
@@ -538,7 +538,7 @@ const menuData = [
         category: 'JuiceBlends',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/3-JuiceBlends/8.jpeg',
+        image: 'imgs/3-JuiceBlends/8.jpg',
         sizes: [
             { label: 'S',   short: 'S',  price: 10 },
             { label: 'M',   short: 'M',  price: 12 },
@@ -551,7 +551,7 @@ const menuData = [
         category: 'JuiceBlends',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/3-JuiceBlends/9.jpeg',
+        image: 'imgs/3-JuiceBlends/9.jpg',
         sizes: [
             { label: 'S',   short: 'S',  price: 10 },
             { label: 'M',   short: 'M',  price: 12 },
@@ -564,7 +564,7 @@ const menuData = [
         category: 'JuiceBlends',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/3-JuiceBlends/10.jpeg',
+        image: 'imgs/3-JuiceBlends/10.jpg',
         sizes: [
             { label: 'S',   short: 'S',  price: 10 },
             { label: 'M',   short: 'M',  price: 12 },
@@ -577,7 +577,7 @@ const menuData = [
         category: 'JuiceBlends',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/3-JuiceBlends/11.jpeg',
+        image: 'imgs/3-JuiceBlends/11.jpg',
         sizes: [
             { label: 'S',   short: 'S',  price: 10 },
             { label: 'M',   short: 'M',  price: 12 },
@@ -590,7 +590,7 @@ const menuData = [
         category: 'JuiceBlends',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/3-JuiceBlends/12.jpeg',
+        image: 'imgs/3-JuiceBlends/12.jpg',
         sizes: [
             { label: 'S',   short: 'S',  price: 10 },
             { label: 'M',   short: 'M',  price: 12 },
@@ -605,7 +605,7 @@ const menuData = [
         category: 'JuiceBoxes',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/4-JuiceBoxes/1.jpeg',
+        image: 'imgs/4-JuiceBoxes/1.jpg',
         sizes: [
             { label: '',   short: '',  price: 135 },
         ]
@@ -616,7 +616,7 @@ const menuData = [
         category: 'JuiceBoxes',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/4-JuiceBoxes/2.jpeg',
+        image: 'imgs/4-JuiceBoxes/2.jpg',
         sizes: [
             { label: '',   short: '',  price: 120 },
         ]
@@ -627,7 +627,7 @@ const menuData = [
         category: 'JuiceBoxes',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/4-JuiceBoxes/3.jpeg',
+        image: 'imgs/4-JuiceBoxes/3.jpg',
         sizes: [
             { label: '',   short: '',  price: 90 },
         ]
@@ -638,7 +638,7 @@ const menuData = [
         category: 'JuiceBoxes',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/4-JuiceBoxes/4.jpeg',
+        image: 'imgs/4-JuiceBoxes/4.jpg',
         sizes: [
             { label: '',   short: '',  price: 75 },
         ]
@@ -649,7 +649,7 @@ const menuData = [
         category: 'JuiceBoxes',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/4-JuiceBoxes/5.jpeg',
+        image: 'imgs/4-JuiceBoxes/5.jpg',
         sizes: [
             { label: '',   short: '',  price: 135 },
         ]
@@ -660,7 +660,7 @@ const menuData = [
         category: 'JuiceBoxes',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/4-JuiceBoxes/6.jpeg',
+        image: 'imgs/4-JuiceBoxes/6.jpg',
         sizes: [
             { label: '',   short: '',  price: 120 },
         ]
@@ -671,7 +671,7 @@ const menuData = [
         category: 'JuiceBoxes',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/4-JuiceBoxes/7.jpeg',
+        image: 'imgs/4-JuiceBoxes/7.jpg',
         sizes: [
             { label: '',   short: '',  price: 90 },
         ]
@@ -682,7 +682,7 @@ const menuData = [
         category: 'JuiceBoxes',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/4-JuiceBoxes/8.jpeg',
+        image: 'imgs/4-JuiceBoxes/8.jpg',
         sizes: [
             { label: '',   short: '',  price: 75 },
         ]
@@ -693,7 +693,7 @@ const menuData = [
         category: 'JuiceBoxes',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/4-JuiceBoxes/9.jpeg',
+        image: 'imgs/4-JuiceBoxes/9.jpg',
         sizes: [
             { label: '',   short: '',  price: 80 },
         ]
@@ -704,7 +704,7 @@ const menuData = [
         category: 'JuiceBoxes',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/4-JuiceBoxes/10.jpeg',
+        image: 'imgs/4-JuiceBoxes/10.jpg',
         sizes: [
             { label: '',   short: '',  price: 5 },
         ]
@@ -717,7 +717,7 @@ const menuData = [
         category: 'CherryMilkshakeCups',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/5-CherryMilkshakeCups/1.jpeg',
+        image: 'imgs/5-CherryMilkshakeCups/1.jpg',
         sizes: [
             { label: 'M',   short: 'M',  price: 10 },
             { label: 'L',   short: 'L',  price: 12 },
@@ -729,7 +729,7 @@ const menuData = [
         category: 'CherryMilkshakeCups',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/5-CherryMilkshakeCups/2.jpeg',
+        image: 'imgs/5-CherryMilkshakeCups/2.jpg',
         sizes: [
             { label: 'M',   short: 'M',  price: 10 },
             { label: 'L',   short: 'L',  price: 12 },
@@ -741,7 +741,7 @@ const menuData = [
         category: 'CherryMilkshakeCups',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/5-CherryMilkshakeCups/3.jpeg',
+        image: 'imgs/5-CherryMilkshakeCups/3.jpg',
         sizes: [
             { label: 'M',   short: 'M',  price: 10 },
             { label: 'L',   short: 'L',  price: 12 },
@@ -753,7 +753,7 @@ const menuData = [
         category: 'CherryMilkshakeCups',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/5-CherryMilkshakeCups/4.jpeg',
+        image: 'imgs/5-CherryMilkshakeCups/4.jpg',
         sizes: [
             { label: 'M',   short: 'M',  price: 10 },
             { label: 'L',   short: 'L',  price: 12 },
@@ -765,7 +765,7 @@ const menuData = [
         category: 'CherryMilkshakeCups',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/5-CherryMilkshakeCups/5.jpeg',
+        image: 'imgs/5-CherryMilkshakeCups/5.jpg',
         sizes: [
             { label: 'M',   short: 'M',  price: 10 },
             { label: 'L',   short: 'L',  price: 12 },
@@ -777,7 +777,7 @@ const menuData = [
         category: 'CherryMilkshakeCups',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/5-CherryMilkshakeCups/6.jpeg',
+        image: 'imgs/5-CherryMilkshakeCups/6.jpg',
         sizes: [
             { label: 'M',   short: 'M',  price: 10 },
             { label: 'L',   short: 'L',  price: 12 },
@@ -789,7 +789,7 @@ const menuData = [
         category: 'CherryMilkshakeCups',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/5-CherryMilkshakeCups/7.jpeg',
+        image: 'imgs/5-CherryMilkshakeCups/7.jpg',
         sizes: [
             { label: 'M',   short: 'M',  price: 10 },
             { label: 'L',   short: 'L',  price: 12 },
@@ -801,7 +801,7 @@ const menuData = [
         category: 'CherryMilkshakeCups',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/5-CherryMilkshakeCups/8.jpeg',
+        image: 'imgs/5-CherryMilkshakeCups/8.jpg',
         sizes: [
             { label: 'M',   short: 'M',  price: 10 },
             { label: 'L',   short: 'L',  price: 12 },
@@ -813,7 +813,7 @@ const menuData = [
         category: 'CherryMilkshakeCups',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/5-CherryMilkshakeCups/9.jpeg',
+        image: 'imgs/5-CherryMilkshakeCups/9.jpg',
         sizes: [
             { label: 'M',   short: 'M',  price: 10 },
             { label: 'L',   short: 'L',  price: 12 },
@@ -825,7 +825,7 @@ const menuData = [
         category: 'CherryMilkshakeCups',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/5-CherryMilkshakeCups/10.jpeg',
+        image: 'imgs/5-CherryMilkshakeCups/10.jpg',
         sizes: [
             { label: 'M',   short: 'M',  price: 10 },
             { label: 'L',   short: 'L',  price: 12 },
@@ -837,7 +837,7 @@ const menuData = [
         category: 'CherryMilkshakeCups',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/5-CherryMilkshakeCups/11.jpeg',
+        image: 'imgs/5-CherryMilkshakeCups/11.jpg',
         sizes: [
             { label: 'M',   short: 'M',  price: 10 },
             { label: 'L',   short: 'L',  price: 12 },
@@ -849,7 +849,7 @@ const menuData = [
         category: 'CherryMilkshakeCups',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/5-CherryMilkshakeCups/12.jpeg',
+        image: 'imgs/5-CherryMilkshakeCups/12.jpg',
         sizes: [
             { label: 'M',   short: 'M',  price: 10 },
             { label: 'L',   short: 'L',  price: 12 },
@@ -861,7 +861,7 @@ const menuData = [
         category: 'CherryMilkshakeCups',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/5-CherryMilkshakeCups/13.jpeg',
+        image: 'imgs/5-CherryMilkshakeCups/13.jpg',
         sizes: [
             { label: 'M',   short: 'M',  price: 10 },
             { label: 'L',   short: 'L',  price: 12 },
@@ -873,7 +873,7 @@ const menuData = [
         category: 'CherryMilkshakeCups',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/5-CherryMilkshakeCups/14.jpeg',
+        image: 'imgs/5-CherryMilkshakeCups/14.jpg',
         sizes: [
             { label: 'M',   short: 'M',  price: 10 },
             { label: 'L',   short: 'L',  price: 12 },
@@ -885,7 +885,7 @@ const menuData = [
         category: 'CherryMilkshakeCups',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/5-CherryMilkshakeCups/15.jpeg',
+        image: 'imgs/5-CherryMilkshakeCups/15.jpg',
         sizes: [
             { label: 'M',   short: 'M',  price: 10 },
             { label: 'L',   short: 'L',  price: 12 },
@@ -899,7 +899,7 @@ const menuData = [
         category: 'IcedDrinks',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/6-IcedDrinks/1.jpeg',
+        image: 'imgs/6-IcedDrinks/1.jpg',
         sizes: [
             { label: 'L',   short: 'L',  price: 18 },
         ]
@@ -910,7 +910,7 @@ const menuData = [
         category: 'IcedDrinks',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/6-IcedDrinks/2.jpeg',
+        image: 'imgs/6-IcedDrinks/2.jpg',
         sizes: [
             { label: 'L',   short: 'L',  price: 18 },
         ]
@@ -921,7 +921,7 @@ const menuData = [
         category: 'IcedDrinks',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/6-IcedDrinks/3.jpeg',
+        image: 'imgs/6-IcedDrinks/3.jpg',
         sizes: [
             { label: 'M',   short: 'M',  price: 10 },
             { label: 'L',   short: 'L',  price: 12 },
@@ -933,7 +933,7 @@ const menuData = [
         category: 'IcedDrinks',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/6-IcedDrinks/4.jpeg',
+        image: 'imgs/6-IcedDrinks/4.jpg',
         sizes: [
             { label: 'L',   short: 'L',  price: 12 },
         ]
@@ -944,7 +944,7 @@ const menuData = [
         category: 'IcedDrinks',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/6-IcedDrinks/5.jpeg',
+        image: 'imgs/6-IcedDrinks/5.jpg',
         sizes: [
             { label: 'M',   short: 'M',  price: 10 },
             { label: 'L',   short: 'L',  price: 12 },
@@ -956,7 +956,7 @@ const menuData = [
         category: 'IcedDrinks',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/6-IcedDrinks/6.jpeg',
+        image: 'imgs/6-IcedDrinks/6.jpg',
         sizes: [
             { label: 'M',   short: 'M',  price: 10 },
             { label: 'L',   short: 'L',  price: 12 },
@@ -968,7 +968,7 @@ const menuData = [
         category: 'IcedDrinks',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/6-IcedDrinks/7.jpeg',
+        image: 'imgs/6-IcedDrinks/7.jpg',
         sizes: [
             { label: 'M',   short: 'M',  price: 10 },
             { label: 'L',   short: 'L',  price: 12 },
@@ -980,7 +980,7 @@ const menuData = [
         category: 'IcedDrinks',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/6-IcedDrinks/8.jpeg',
+        image: 'imgs/6-IcedDrinks/8.jpg',
         sizes: [
             { label: 'M',   short: 'M',  price: 10 },
             { label: 'L',   short: 'L',  price: 12 },
@@ -994,7 +994,7 @@ const menuData = [
         category: 'FruitSalad',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/7-FruitSalad/1.jpeg',
+        image: 'imgs/7-FruitSalad/1.jpg',
         sizes: [
             { label: 'S',   short: 'S',  price: 23 },
             { label: 'M',   short: 'M',  price: 30 },
@@ -1007,7 +1007,7 @@ const menuData = [
         category: 'FruitSalad',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/7-FruitSalad/2.jpeg',
+        image: 'imgs/7-FruitSalad/2.jpg',
         sizes: [
             { label: 'S',   short: 'S',  price: 20 },
             { label: 'M',   short: 'M',  price: 25 },
@@ -1020,7 +1020,7 @@ const menuData = [
         category: 'FruitSalad',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/7-FruitSalad/3.jpeg',
+        image: 'imgs/7-FruitSalad/3.jpg',
         sizes: [
             { label: 'S',   short: 'S',  price: 14 },
             { label: 'M',   short: 'M',  price: 16 },
@@ -1032,7 +1032,7 @@ const menuData = [
         category: 'FruitSalad',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/7-FruitSalad/4.jpeg',
+        image: 'imgs/7-FruitSalad/4.jpg',
         sizes: [
             { label: 'S',   short: 'S',  price: 3 }
         ]
@@ -1045,7 +1045,7 @@ const menuData = [
         category: 'IceCream',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/8-IceCream/1.jpeg',
+        image: 'imgs/8-IceCream/1.jpg',
         sizes: [
             { label: 'S',   short: 'S',  price: 7 },
             { label: 'M',   short: 'M',  price: 14 },
@@ -1058,7 +1058,7 @@ const menuData = [
         category: 'IceCream',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/8-IceCream/2.jpeg',
+        image: 'imgs/8-IceCream/2.jpg',
         sizes: [
             { label: 'S',   short: 'S',  price: 7 },
             { label: 'M',   short: 'M',  price: 14 },
@@ -1071,7 +1071,7 @@ const menuData = [
         category: 'IceCream',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/8-IceCream/3.jpeg',
+        image: 'imgs/8-IceCream/3.jpg',
         sizes: [
             { label: 'S',   short: 'S',  price: 7 },
             { label: 'M',   short: 'M',  price: 14 },
@@ -1084,7 +1084,7 @@ const menuData = [
         category: 'IceCream',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/8-IceCream/4.jpeg',
+        image: 'imgs/8-IceCream/4.jpg',
         sizes: [
             { label: 'S',   short: 'S',  price: 7 },
             { label: 'M',   short: 'M',  price: 14 },
@@ -1097,7 +1097,7 @@ const menuData = [
         category: 'IceCream',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/8-IceCream/5.jpeg',
+        image: 'imgs/8-IceCream/5.jpg',
         sizes: [
             { label: 'S',   short: 'S',  price: 8 },
             { label: 'M',   short: 'M',  price: 16 },
@@ -1110,7 +1110,7 @@ const menuData = [
         category: 'IceCream',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/8-IceCream/6.jpeg',
+        image: 'imgs/8-IceCream/6.jpg',
         sizes: [
             { label: 'S',   short: 'S',  price: 7 },
             { label: 'M',   short: 'M',  price: 14 },
@@ -1123,7 +1123,7 @@ const menuData = [
         category: 'IceCream',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/8-IceCream/7.jpeg',
+        image: 'imgs/8-IceCream/7.jpg',
         sizes: [
             { label: 'S',   short: 'S',  price: 7 },
             { label: 'M',   short: 'M',  price: 14 },
@@ -1136,7 +1136,7 @@ const menuData = [
         category: 'IceCream',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/8-IceCream/8.jpeg',
+        image: 'imgs/8-IceCream/8.jpg',
         sizes: [
             { label: 'S',   short: 'S',  price: 7 },
             { label: 'M',   short: 'M',  price: 14 },
@@ -1149,7 +1149,7 @@ const menuData = [
         category: 'IceCream',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/8-IceCream/8.jpeg',
+        image: 'imgs/8-IceCream/8.jpg',
         sizes: [
             { label: 'S',   short: 'S',  price: 7 },
             { label: 'M',   short: 'M',  price: 14 },
@@ -1162,7 +1162,7 @@ const menuData = [
         category: 'IceCream',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/8-IceCream/9.jpeg',
+        image: 'imgs/8-IceCream/9.jpg',
         sizes: [
             { label: 'S',   short: 'S',  price: 7 },
             { label: 'M',   short: 'M',  price: 14 },
