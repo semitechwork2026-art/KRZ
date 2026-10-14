@@ -729,7 +729,7 @@ const menuData = [
         category: 'CherryMilkshakeCups',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/5-CherryMilkshakeCups/2.jpg',
+        image: 'imgs/5-CherryMilkshakeCups/2.jpeg',
         sizes: [
             { label: 'M',   short: 'M',  price: 10 },
             { label: 'L',   short: 'L',  price: 12 },
@@ -1451,7 +1451,6 @@ function openSizePicker(itemId) {
     document.getElementById('spIngredients').textContent = item.description || '';
 
     renderSpOptions();
-    updateSpHeroCal();
     updateSpQtyDisplay();
     updateSpTotalPrice();
 
@@ -1479,18 +1478,10 @@ function renderSpOptions() {
     `).join('');
 }
 
-function updateSpHeroCal() {
-    if (!spCurrentItem) return;
-    const size = spCurrentItem.sizes[spSelectedSizeIndex];
-    const calEl = document.getElementById('spHeroCalValue');
-    if (calEl) calEl.textContent = size?.cal ?? '—';
-}
-
 function selectSpSize(index) {
     spSelectedSizeIndex = index;
     renderSpOptions();
     updateSpTotalPrice();
-    updateSpHeroCal();
 }
 
 function changeSpQty(delta) {

@@ -35,7 +35,7 @@
                 <i class="fas fa-phone-alt"></i>
             </a>
         </div>
-        <button class="sd-main-btn" style="background-color: #b5cc2e;" id="sdMainBtn" onclick="toggleSpeedDial()" aria-label="تواصل معنا">
+        <button class="sd-main-btn" style="background-color: #800020;" id="sdMainBtn" onclick="toggleSpeedDial()" aria-label="تواصل معنا">
             <i class="fas fa-headset sd-icon-open"></i>
             <i class="fas fa-times sd-icon-close"></i>
         </button>
@@ -98,21 +98,29 @@
     <!-- Hero Offers Section -->
     <section id="home" class="hero-offers-section">
         <div class="container">
+            <div class="hero-offers-layout">
+                <div class="hero-art hero-art-juice" data-aos="fade-left">
+                    <img src="imgs/1-FreshJuices/18.jpg" alt="كوب عصير أحمر طازج على طاولة خشبية مع ثمار الرمان">
+                </div>
 
-            <!-- Brand Intro -->
-            <div class="hero-offers-header" data-aos="fade-down">
-                <h1 class="hero-offers-title">مرحباً بك في <span>عصائر أكواب الكرز</span> 🧡</h1>
-                <p class="hero-offers-sub">أطيب العصائر الطازجة والمشروبات المنعشة</p>
-                <div class="hero-offers-actions">
-                    <a href="#menu" class="btn btn-primary btn-lg">استكشف القائمة</a>
-                    <a href="https://wa.me/201010610674" target="_blank" class="btn btn-success btn-lg">
-                        <i class="fab fa-whatsapp me-1"></i> اطلب الآن
-                    </a>
+                <div class="hero-offers-header" data-aos="fade-up">
+                    <p class="hero-eyebrow">انتعاش بطعم الطبيعة</p>
+                    <h1 class="hero-offers-title">مرحباً بك في عصائر أكواب الكرز</h1>
+                    <p class="hero-offers-sub">أطيب العصائر الطازجة والمشروبات المنعشة</p>
+                    <div class="hero-offers-actions">
+                        <a href="#menu" class="btn btn-lg hero-btn hero-btn-primary">استكشف القائمة</a>
+                        <a href="https://wa.me/201010610674" target="_blank" rel="noopener noreferrer" class="btn btn-lg hero-btn hero-btn-secondary">
+                            <i class="fab fa-whatsapp me-1"></i> اطلب الآن
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-art hero-art-fruit" data-aos="fade-right">
+                    <img src="imgs/7-FruitSalad/2.jpg" alt="تشكيلة فواكه طازجة مقطعة بألوان متنوعة">
+                    <span class="hero-ice-cream" aria-hidden="true"><i class="fas fa-ice-cream"></i></span>
                 </div>
             </div>
-
-            <!-- Offers Cards -->
-
+        </div>
     </section>
 
     <!-- Menu Section -->
@@ -376,7 +384,6 @@
         <div class="size-picker-hero">
             <img id="spImg" src="" alt="">
             <span class="size-picker-hero-code" id="spCode"></span>
-            <span class="size-picker-hero-cal" id="spHeroCal"><i class="fas fa-fire-flame-curved"></i> <span id="spHeroCalValue">—</span> kcal</span>
         </div>
         <div class="size-picker-header">
             <h5 id="spName"></h5>
