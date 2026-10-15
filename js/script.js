@@ -1306,10 +1306,13 @@ document.querySelectorAll('.filter-btn').forEach(btn => {
         this.classList.add('active');
         applyFilterAndSearch();
 
-        const menuSection = document.getElementById('menu');
-        if (menuSection) {
-            const navHeight = document.querySelector('.navbar').offsetHeight;
-            const top = menuSection.getBoundingClientRect().top + window.pageYOffset - navHeight - 10;
+        const menuGrid = document.getElementById('menuGrid');
+        if (menuGrid) {
+            const navbar = document.querySelector('.navbar');
+            const filterSection = document.querySelector('.menu-filter-section');
+            const navHeight = navbar ? navbar.offsetHeight : 0;
+            const filterHeight = filterSection ? filterSection.offsetHeight : 0;
+            const top = menuGrid.getBoundingClientRect().top + window.pageYOffset - navHeight - filterHeight - 8;
             window.scrollTo({ top, behavior: 'smooth' });
         }
     });
@@ -1357,12 +1360,18 @@ function fixFilterStickyTop() {
     const navbar = document.getElementById('mainNav');
     const filterSection = document.querySelector('.menu-filter-section');
     if (navbar && filterSection) {
-        const navHeight = navbar.offsetHeight;
-        filterSection.style.top = navHeight + 'px';
+        if (window.innerWidth <= 768) {
+            filterSection.style.top = '62px';
+        } else {
+            const navHeight = navbar.offsetHeight;
+            filterSection.style.top = navHeight + 'px';
+        }
     }
 }
 window.addEventListener('load', fixFilterStickyTop);
 window.addEventListener('resize', fixFilterStickyTop);
+document.getElementById('navbarNav')?.addEventListener('shown.bs.collapse', fixFilterStickyTop);
+document.getElementById('navbarNav')?.addEventListener('hidden.bs.collapse', fixFilterStickyTop);
 
 // ========================================
 // ========== Cart & Size Picker ==========
