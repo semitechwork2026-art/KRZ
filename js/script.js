@@ -1668,7 +1668,7 @@ function closeCart() {
 function sendWhatsAppOrder() {
     if (cart.length === 0) return;
 
-    let message = 'مرحباً  كافيه مالو، اود بطلب التالي :%0A%0A';
+    let message = 'مرحباً  عصائر أكواب الكرز، اود بطلب التالي :%0A%0A';
     cart.forEach((c, i) => {
         const codeText = !String(c.itemId).startsWith('offer_') ? ` [${c.itemId}]` : '';
         message += `${i + 1}. ${c.name}${codeText} (${getCartDisplayLabel(c)}) × ${c.qty} = ${c.price * c.qty} ﷼%0A`;
