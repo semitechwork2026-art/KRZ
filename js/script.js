@@ -1377,7 +1377,7 @@ document.getElementById('navbarNav')?.addEventListener('hidden.bs.collapse', fix
 // ========== Cart & Size Picker ==========
 // ========================================
 
-const WHATSAPP_NUMBER = '201010610674';
+const WHATSAPP_NUMBER = '966555156413';
 
 // Cart state: array of { itemId, name, image, sizeLabel, price, qty }
 let cart = [];
