@@ -12,7 +12,7 @@ const menuData = [
         category: 'FreshJuices',
         // categoryName: '18 Kcal',
         // description: 'Iced Coffee V60',
-        image: 'imgs/1-FreshJuices/1.jpg',
+        image: 'imgs/1-FreshJuices/1.jpeg',
         sizes: [
             { label: 'S',   short: 'S',  price: 8 },
             { label: 'M',   short: 'M',  price: 10 },
@@ -23,7 +23,7 @@ const menuData = [
         id: 'A2',
         name: 'كوكتيل',
         category: 'FreshJuices',
-        image: 'imgs/1-FreshJuices/2.jpg',
+        image: 'imgs/1-FreshJuices/2.jpeg',
         sizes: [
             { label: 'S',   short: 'S',  price: 8},
             { label: 'M',   short: 'M',  price: 10 },
